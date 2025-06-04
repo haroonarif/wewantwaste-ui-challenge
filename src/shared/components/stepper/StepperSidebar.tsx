@@ -60,13 +60,13 @@ export const StepperSidebar = React.memo(({
           sx={{
             minWidth: isMobile ? 'max-content' : '100%',
             '& .MuiStepConnector-root': {
-              marginLeft: isMobile ? 0 : '12px', // Half of icon width (24px/2)
+              marginLeft: isMobile ? 0 : '12px', 
               '&.MuiStepConnector-vertical': {
                 marginLeft: '19px',
-                padding: '0px 0' // Official Material-UI spacing
+                padding: '0px 0' 
               },
               '&.MuiStepConnector-horizontal': {
-                marginTop: '12px', // Center horizontally
+                marginTop: '12px', 
                 marginLeft: 'calc(-50% + 20px)',
                 marginRight: 'calc(50% + 20px)'
               }
@@ -75,7 +75,7 @@ export const StepperSidebar = React.memo(({
               borderColor: isDarkMode ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.12)',
               borderLeftWidth: isMobile ? 0 : '1px',
               borderBottomWidth: isMobile ? '1px' : 0,
-              minHeight: isMobile ? 0 : '20px' // Official Material-UI height
+              minHeight: isMobile ? 0 : '20px' 
             }
           }}
         >
@@ -84,7 +84,7 @@ export const StepperSidebar = React.memo(({
               key={`${step.label}-${index}`}
               onClick={() => onStepClick(index)}
               sx={{
-                padding: 0, // Remove default padding
+                padding: 0, 
                 minWidth: isMobile ? 140 : 'auto',
                 flexShrink: 0,
                 '&:hover': {
@@ -124,9 +124,9 @@ export const StepperSidebar = React.memo(({
                 }
                 sx={{ 
                   cursor: 'pointer',
-                  padding: isMobile ? '8px' : '12px 8px', // Official Material-UI spacing
+                  padding: isMobile ? '8px' : '12px 8px', 
                   '& .MuiStepLabel-labelContainer': {
-                    marginTop: '4px' // Official label alignment
+                    marginTop: '4px' 
                   }
                 }}
                 StepIconComponent={(props) => (

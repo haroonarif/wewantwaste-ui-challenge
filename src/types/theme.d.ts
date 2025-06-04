@@ -211,7 +211,6 @@ export const themeOptions = {
         main: "linear-gradient(195deg, #EC407A, #D81B60)",
         state: "linear-gradient(195deg, #d81b5e, #b0004f)"
       },
-      // ... other gradients
     },
   },
   components: {
@@ -256,6 +255,5 @@ export const themeOptions = {
       fontWeight: 700,
       lineHeight: 1.2
     },
-    // ... other typography variants
   }
 };

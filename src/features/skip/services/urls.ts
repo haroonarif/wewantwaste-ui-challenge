@@ -1,0 +1,1 @@
+export const getSkipsByLocationsUrl = `skips/by-location?postcode=NR32&area=Lowestoft`
